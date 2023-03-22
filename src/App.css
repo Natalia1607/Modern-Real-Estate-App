@@ -82,6 +82,12 @@ input {
   grid-gap: 30px;
 }
 
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
 .grid3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
