@@ -125,3 +125,13 @@ img {
   border-radius: 50px;
   font-size: 20px;
 }
+
+.btn3 {
+  background: #ff6922;
+  border-radius: 50px;
+}
+
+.btn4 {
+  background-color: #232323;
+  color: #fff;
+}

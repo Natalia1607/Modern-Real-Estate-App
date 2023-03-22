@@ -13,7 +13,7 @@ const Team = () => {
             {team.map((val, index) => {
               return (
                 <div className="box" key={index}>
-                  <button className="btn3">{val.list}Listings</button>
+                  <button className="btn3">{val.list} Listings</button>
                   <div className="details">
                     <div className="img">
                       <img src={val.cover} alt="" /> 
@@ -33,7 +33,7 @@ const Team = () => {
                         <i className="fa fa-envelope"></i>
                         Message
                       </button>
-                      <button>
+                      <button className='btn4'>
                         <i className="fa fa-phone-alt"></i>
                       </button>
                     </div>
