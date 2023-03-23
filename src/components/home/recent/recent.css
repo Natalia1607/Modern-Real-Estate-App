@@ -1,26 +1,25 @@
 .recent .text {
-    padding: 30px;
-  }
+  padding: 30px;
+}
 
-  .recent .category span {
-    padding: 4px 15px;
-    border-radius: 2px;
-    font-weight: 600;
-    font-size: 13px;
-    display: inline-block;
-  }
+.recent .category span {
+  display: inline-block;
+  padding: 4px 15px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 2px;
+}
 
-  .recent .category i {
-    font-size: 20px;
-    color: #bec7d8;
-  }
+.recent .category i {
+  color: #bec7d8;
+  font-size: 20px;
+}
 
-  .recent p {
-    color: #72809d;
-  }
-  
-  .recent .button {
-    border-top: 1px solid #e4e8f3;
-    padding: 10px 30px;
-  }
-  
+.recent p {
+  color: #72809d;
+}
+
+.recent .button {
+  padding: 10px 30px;
+  border-top: 1px solid #e4e8f3;
+}

@@ -1,5 +1,5 @@
-import React from 'react';
-import { featured } from '../../data/Data';
+import React from "react";
+import { featured } from "../../data/Data";
 
 const FeaturedCard = () => {
   return (
@@ -14,7 +14,7 @@ const FeaturedCard = () => {
         ))}
       </div>
     </>
-  )
-}
+  );
+};
 
-export default FeaturedCard
+export default FeaturedCard;

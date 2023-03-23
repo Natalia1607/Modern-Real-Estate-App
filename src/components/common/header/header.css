@@ -1,77 +1,79 @@
 header {
-    background-color: #fff;
-    height: 10vh;
-    box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
-    padding: 15px 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+  position: sticky;
+  top: 0;
+  padding: 15px 0;
+  height: 10vh;
+  background-color: #fff;
+  box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+  z-index: 100;
 }
 
 header img {
-    width: 170px;
+  width: 170px;
 }
 
 header a {
-    margin-left: 30px;
-    transition: 0.5s;
-    font-weight: 500;
-}
-
-header a:hover {
-    color: #27ae60;
+  margin-left: 30px;
+  font-weight: 500;
+  transition: 0.5s;
 }
 
 header span {
-    width: auto;
-    padding: 0 6px;
-    background-color: #27ae60;
-    border-radius: 50px;
-    color: #fff;
-    margin-right: 4px;
-    font-weight: 400;
+  margin-right: 4px;
+  padding: 0 6px;
+  width: auto;
+  font-weight: 400;
+  background-color: #27ae60;
+  color: #fff;
+  border-radius: 50px;
 }
 
 header h4 {
-    font-weight: 500;
-    margin-right: 20px;
+  margin-right: 20px;
+  font-weight: 500;
 }
 
 header .toggle {
-    display: none;
+  display: none;
 }
 
-@media screen and (max-width:768px) {
-    header {
-        padding: 0;
-    }
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0;
+  }
 
-    header img {
-        margin-top: 30px;
-    }
+  header img {
+    margin-top: 30px;
+  }
 
-    header .button,
-    header .nav .flex {
-        display: none;
-    }
+  header .button,
+  header .nav .flex {
+    display: none;
+  }
 
-    header .toggle {
-        display: block;
-        margin-top: 20px;
-    }
+  header .toggle {
+    display: block;
+    margin-top: 20px;
+  }
 
-    header .small {
-        position: absolute;
-        top: 10vh;
-        left: 0;
-        width: 100%;
-        background-color: #27ae60;
-        padding: 20px;
-    }
+  header .small {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: #27ae60;
+  }
 
-    header li a {
-        display: inline-block;
-        margin-bottom: 20px;
-        color: #fff;
-    }
+  header li a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header a:hover {
+    color: #27ae60;
+  }
 }

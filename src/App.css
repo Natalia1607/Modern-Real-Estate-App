@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #fff;
 }
 
 .container {
-  width: 80%;
   margin: auto;
+  width: 80%;
 }
 
 a {
-  text-decoration: none;
   color: #232323;
+  text-decoration: none;
   text-transform: capitalize;
 }
 
@@ -40,21 +40,21 @@ button i {
   margin-right: 5px;
 }
 
-textarea, 
+textarea,
 input {
+  background-color: none;
   border: none;
   outline: none;
-  background-color: none;
 }
 
 label {
-  color: #2d3954;
   font-style: 14px;
+  color: #2d3954;
 }
 
 h4 {
-  font-weight: 500;
   margin-top: 10px;
+  font-weight: 500;
 }
 
 img {
@@ -69,16 +69,16 @@ img {
 }
 
 .heading {
-  text-align: center;
-  width: 60%;
   margin: auto;
+  width: 60%;
+  text-align: center;
 }
 
 .heading h1 {
   color: #2f3954;
   font-weight: 600;
-  text-transform: capitalize;
   font-size: 35px;
+  text-transform: capitalize;
 }
 
 .heading p {
@@ -86,8 +86,8 @@ img {
 }
 
 .background {
-  padding: 80px 0;
   position: relative;
+  padding: 80px 0;
   background-color: #f7f9fc;
 }
 
@@ -122,8 +122,8 @@ img {
 }
 
 .btn2 {
-  border-radius: 50px;
   font-size: 20px;
+  border-radius: 50px;
 }
 
 .btn3 {
@@ -137,27 +137,27 @@ img {
 }
 
 .btn5 {
-  border-radius: 50px;
   padding: 20px 40px;
+  background: #fff;
   color: #27ae60;
   font-size: 20px;
   font-weight: 400;
   border: 5px solid #27ae601f;
-  background: #fff;
+  border-radius: 50px;
 }
 
 .back {
-  height: 40vh;
   position: relative;
+  height: 40vh;
 }
 
 .back img {
-  height: 40vh;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  height: 40vh;
   object-fit: cover;
+  z-index: -1;
 }
 
 .back::after {
@@ -172,8 +172,8 @@ img {
 }
 
 .back .container {
-  color: #fff;
   padding: 120px 0;
+  color: #fff;
 }
 
 .back h1 {
@@ -187,9 +187,12 @@ img {
 
 @media screen and (max-width: 800px) {
   .grid4,
-  .grid3,
   .grid5 {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid3 {
+    grid-template-columns: 1fr;
   }
 
   .heading {
@@ -199,11 +202,10 @@ img {
   .container {
     max-width: 90%;
   }
-  
+
   .back::after,
   .back img,
   .back {
     height: 30vh;
   }
 }
-
